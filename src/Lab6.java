@@ -143,7 +143,7 @@ public class Lab6 extends GLJPanel implements GLEventListener  {
         gl2.glEnable(GL2.GL_LIGHTING);
         gl2.glEnable(GL2.GL_LIGHT0);
         // TODO configure better lighting!
-        float[] light = {1.7f,1.7f,1.7f,1};
+        float[] light = {1.0f,1.0f,1.0f,1};
         gl2.glEnable(GL2.GL_DEPTH_TEST);
         gl2.glEnable(GL2.GL_NORMALIZE);
         gl2.glEnable(GL2.GL_LIGHTING);
